@@ -1,0 +1,23 @@
+
+.topic-list {
+  margin-left:80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topic-item {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.topic-item:hover {
+  background-color: #0074d9;
+  color: white;
+  transform: translateY(-5px);
+}

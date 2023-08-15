@@ -1,0 +1,74 @@
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.payment-card {
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    height: 500px;
+}
+
+.payment-card:hover {
+    transform: translateY(-5px);
+}
+
+.payment-card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payment-amount {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pay-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top:50px;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-card:nth-child(1):hover {
+    background-color: #FFD700; /* Gold */
+  }
+  
+  .payment-card:nth-child(2):hover {
+    background-color: #32CD32; /* Lime Green */
+  }
+  
+  .payment-card:nth-child(3):hover {
+    background-color: #1E90FF; /* Dodger Blue */
+  }
+  
+  .payment-card:nth-child(4):hover {
+    background-color: #FF6347; /* Tomato */
+  }
+  
+  /* On hover, change the background color to a darker shade */
+  .payment-card:hover {
+    transform: scale(1.05); /* Scale up a bit on hover */
+  }

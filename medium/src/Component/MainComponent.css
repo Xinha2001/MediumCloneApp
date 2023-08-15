@@ -1,0 +1,79 @@
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+.right-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.right-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recommendedtopics{
+  margin-top: 20px; 
+  display: flex;
+  flex-direction: column; 
+
+}
+.filters-search {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.filters-search input,
+.filters-search select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  min-width: 200px;
+}
+
+.filter-item {
+  flex-basis: calc(50% - 5px); 
+}
+
+.search-bar {
+  width: 40%; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 400px;
+  margin-top:10px;
+  margin-left:140px;
+}
+
+.filter2 {
+  flex: 1;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter1 {
+  margin-bottom: 10px;
+}
+
+/* Optional: Style for input elements */
+.filter1 select,
+.filter1 input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

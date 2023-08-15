@@ -1,0 +1,286 @@
+.post-details-container {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width:680px;
+  }
+  
+  .post-details {
+    margin:0 24px;
+  }
+  
+  .post-details img {
+    width: 680px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 42px;
+    font-weight: bold;
+  }
+  .post-topic{
+    font-size: 22px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .post-text{
+    font-size: 15px;
+    margin-top:10px;
+  }
+  
+  .post-details p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .centered-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .edit-delete-options {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .edit-delete-options a {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-delete-options button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .centered-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some spacing from the text */
+  }
+  
+  .centered-image {
+    max-height: 100%; /* Limit the image height if needed */
+    max-width: 100%; /* Limit the image width if needed */
+  }
+
+
+.comment-popup .close-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.comments-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.comments-container h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-box {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #777;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.comment-submit {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comment-submit:hover {
+  background-color: #0056b3;
+}
+
+
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.article-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.close-button-container button{
+  background-color: #ccc;
+}
+
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  margin-bottom: 5px;
+}
+.comment-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.comment-date {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+.comment-text {
+  margin-top: 8px;
+}
+
+.follow-box{
+  display: flex;
+  flex-direction: column;
+}
+.follow-in{
+  display: flex;
+}
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+  font-size: 22px;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.top-container a{
+  margin-left: 10px;
+}
+.top-container .author{
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.bottom-container .published-at{
+  margin-right: 15px;
+}
+
+.author {
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.published-at {
+  margin-right: 16px;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.fa {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  margin-left: 4px;
+  margin-right: 8px;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.follow-button {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.follow-button.following {
+  background-color: #28a745;
+}
+
+.follow-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,115 @@
+.article-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f2f2f2;
+  }
+  
+  .article-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    transition: background-color 0.3s; /* Transition for background-color change on hover */
+  }
+  .article-title {
+  
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    margin-top:50px;
+  }
+  
+  .article-meta {
+    font-size: 14px;
+    color: #757575;
+  }
+  
+  .author-name {
+    margin-right: 10px;
+  }
+  
+  .reading-time {
+    font-style: italic;
+  }
+  
+  .article-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .article-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .article-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+  }
+  
+  .like-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .like-button.liked {
+    background-color: #1a8cff;
+    color: #fff;
+  }
+  
+  .comments-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-button,
+  .save-comment-button {
+    background-color: #1a8cff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .comment-list {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .read-further-button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some margin from the paragraph */
+  }
+  
+  .read-further-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007f3d; /* Default button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition effect for color change */
+  }
+  
+  .read-further-button:hover {
+    background-color: #00a75d; /* Green color when hovered over */
+  }
